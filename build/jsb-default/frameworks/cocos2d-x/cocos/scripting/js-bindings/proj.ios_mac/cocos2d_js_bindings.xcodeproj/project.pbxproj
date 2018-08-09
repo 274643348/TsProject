@@ -275,8 +275,8 @@
 		4DFA4C111CBCC49000E3B736 /* jsb_creator_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA4C0E1CBCC49000E3B736 /* jsb_creator_auto.cpp */; };
 		4DFA4C121CBCC49000E3B736 /* jsb_creator_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4DFA4C0F1CBCC49000E3B736 /* jsb_creator_auto.hpp */; };
 		4DFA4C131CBCC49000E3B736 /* jsb_creator_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4DFA4C0F1CBCC49000E3B736 /* jsb_creator_auto.hpp */; };
-		A43D898F211C239800DA5BB2 /* jsb_jsbTest_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A43D898D211C239800DA5BB2 /* jsb_jsbTest_auto.hpp */; };
-		A43D8990211C239800DA5BB2 /* jsb_jsbTest_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43D898E211C239800DA5BB2 /* jsb_jsbTest_auto.cpp */; };
+		A4009373211C307D00FEDE75 /* jsb_jsbTest_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A4009371211C307D00FEDE75 /* jsb_jsbTest_auto.hpp */; };
+		A4009374211C307D00FEDE75 /* jsb_jsbTest_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4009372211C307D00FEDE75 /* jsb_jsbTest_auto.cpp */; };
 		B38AD56E1B1D38700057DD7F /* jsb_cocos2dx_experimental_video_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B38AD56C1B1D38700057DD7F /* jsb_cocos2dx_experimental_video_auto.cpp */; };
 		B38AD56F1B1D38700057DD7F /* jsb_cocos2dx_experimental_video_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B38AD56D1B1D38700057DD7F /* jsb_cocos2dx_experimental_video_auto.hpp */; };
 		BA4F59841E28DCD3003F5096 /* jsb_cocos2dx_network_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA4F59821E28DCD3003F5096 /* jsb_cocos2dx_network_auto.cpp */; };
@@ -449,8 +449,8 @@
 		4D9BB1F71DFAB8B300B58565 /* jsb_box2d_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsb_box2d_auto.hpp; sourceTree = "<group>"; };
 		4DFA4C0E1CBCC49000E3B736 /* jsb_creator_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_creator_auto.cpp; sourceTree = "<group>"; };
 		4DFA4C0F1CBCC49000E3B736 /* jsb_creator_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsb_creator_auto.hpp; sourceTree = "<group>"; };
-		A43D898D211C239800DA5BB2 /* jsb_jsbTest_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsb_jsbTest_auto.hpp; sourceTree = "<group>"; };
-		A43D898E211C239800DA5BB2 /* jsb_jsbTest_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_jsbTest_auto.cpp; sourceTree = "<group>"; };
+		A4009371211C307D00FEDE75 /* jsb_jsbTest_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsb_jsbTest_auto.hpp; sourceTree = "<group>"; };
+		A4009372211C307D00FEDE75 /* jsb_jsbTest_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_jsbTest_auto.cpp; sourceTree = "<group>"; };
 		B38AD56C1B1D38700057DD7F /* jsb_cocos2dx_experimental_video_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_cocos2dx_experimental_video_auto.cpp; sourceTree = "<group>"; };
 		B38AD56D1B1D38700057DD7F /* jsb_cocos2dx_experimental_video_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsb_cocos2dx_experimental_video_auto.hpp; sourceTree = "<group>"; };
 		BA4F59821E28DCD3003F5096 /* jsb_cocos2dx_network_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_cocos2dx_network_auto.cpp; sourceTree = "<group>"; };
@@ -494,8 +494,8 @@
 		1A119E2E18BDF19200352BAA /* auto */ = {
 			isa = PBXGroup;
 			children = (
-				A43D898E211C239800DA5BB2 /* jsb_jsbTest_auto.cpp */,
-				A43D898D211C239800DA5BB2 /* jsb_jsbTest_auto.hpp */,
+				A4009372211C307D00FEDE75 /* jsb_jsbTest_auto.cpp */,
+				A4009371211C307D00FEDE75 /* jsb_jsbTest_auto.hpp */,
 				4D672A811F8E0EE30073B9A4 /* jsb_creator_camera_auto.cpp */,
 				4D672A821F8E0EE30073B9A4 /* jsb_creator_camera_auto.hpp */,
 				4D672A831F8E0EE30073B9A4 /* jsb_creator_graphics_auto.cpp */,
@@ -862,7 +862,7 @@
 				1A9F0FA01F30235C00A499E1 /* jsb_helper.hpp in Headers */,
 				1AF82D461F2EE1C40002C5A0 /* HandleObject.hpp in Headers */,
 				1AFD36511EF115100097DBB1 /* Class.hpp in Headers */,
-				A43D898F211C239800DA5BB2 /* jsb_jsbTest_auto.hpp in Headers */,
+				A4009373211C307D00FEDE75 /* jsb_jsbTest_auto.hpp in Headers */,
 				1A6821421FAC20B300C18C60 /* jsb_platform_ios.h in Headers */,
 				1AFD36491EF115100097DBB1 /* Utils.hpp in Headers */,
 				1A159D531F13216F00558E38 /* jsb_socketio.hpp in Headers */,
@@ -1071,7 +1071,7 @@
 				4BE089E41ADF965E00D65D4B /* jsb_cocos2dx_experimental_webView_auto.cpp in Sources */,
 				1A81B4211F137BFE008C38F8 /* JavaScriptObjCBridge.mm in Sources */,
 				B38AD56E1B1D38700057DD7F /* jsb_cocos2dx_experimental_video_auto.cpp in Sources */,
-				A43D8990211C239800DA5BB2 /* jsb_jsbTest_auto.cpp in Sources */,
+				A4009374211C307D00FEDE75 /* jsb_jsbTest_auto.cpp in Sources */,
 				1AFD36D31EF116190097DBB1 /* jsb_conversions.cpp in Sources */,
 				4D6E0D601E0384CF00DA5DB6 /* jsb_box2d_auto.cpp in Sources */,
 				1AFD36871EF115100097DBB1 /* Class.cpp in Sources */,

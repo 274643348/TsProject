@@ -1,7 +1,7 @@
 #include "scripting/js-bindings/auto/jsb_jsbTest_auto.hpp"
 #include "scripting/js-bindings/manual/jsb_conversions.hpp"
 #include "scripting/js-bindings/manual/jsb_global.h"
-#include "../xiaoyan/jsbTest.h"
+#include "./xiaoyan/jsbTest.h"
 
 se::Object* __jsb_jsbTest_proto = nullptr;
 se::Class* __jsb_jsbTest_class = nullptr;
