@@ -20,6 +20,7 @@ export default class Helloworld extends cc.Component {
             const element = this.cocoNode[index];
             element.runAction(cc.repeatForever(cc.sequence(cc.moveBy(0.5,cc.v2(50,50)),cc.moveBy(0.5,cc.v2(-50,-50)))));
         }
+        jsb.jsbTest();
         
     }
 }
