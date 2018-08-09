@@ -1117,6 +1117,8 @@
 		A0E749F81BA8FD7F001A8332 /* UIEditBoxImpl-common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0E749F51BA8FD7F001A8332 /* UIEditBoxImpl-common.cpp */; };
 		A0E749F91BA8FD7F001A8332 /* UIEditBoxImpl-common.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E749F61BA8FD7F001A8332 /* UIEditBoxImpl-common.h */; };
 		A0E749FA1BA8FD7F001A8332 /* UIEditBoxImpl-common.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E749F61BA8FD7F001A8332 /* UIEditBoxImpl-common.h */; };
+		A43D898B211C237600DA5BB2 /* jsbTest.h in Headers */ = {isa = PBXBuildFile; fileRef = A43D8989211C237600DA5BB2 /* jsbTest.h */; };
+		A43D898C211C237600DA5BB2 /* jsbTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43D898A211C237600DA5BB2 /* jsbTest.cpp */; };
 		A60A9D661C200E5A0070800A /* libchipmunk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A60A9D651C200E5A0070800A /* libchipmunk.a */; };
 		A614E2E01C8E72360065A737 /* CCLabelTTF.h in Headers */ = {isa = PBXBuildFile; fileRef = A614E2DE1C8E72360065A737 /* CCLabelTTF.h */; };
 		A614E2E11C8E761D0065A737 /* CCLabelTTF.h in Headers */ = {isa = PBXBuildFile; fileRef = A614E2DE1C8E72360065A737 /* CCLabelTTF.h */; };
@@ -2156,6 +2158,8 @@
 		A07A4D641783777C0073F6A7 /* libcocos2d iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcocos2d iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E749F51BA8FD7F001A8332 /* UIEditBoxImpl-common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "UIEditBoxImpl-common.cpp"; sourceTree = "<group>"; };
 		A0E749F61BA8FD7F001A8332 /* UIEditBoxImpl-common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIEditBoxImpl-common.h"; sourceTree = "<group>"; };
+		A43D8989211C237600DA5BB2 /* jsbTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsbTest.h; path = ../xiaoyan/jsbTest.h; sourceTree = "<group>"; };
+		A43D898A211C237600DA5BB2 /* jsbTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jsbTest.cpp; path = ../xiaoyan/jsbTest.cpp; sourceTree = "<group>"; };
 		A60A9D651C200E5A0070800A /* libchipmunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libchipmunk.a; path = ../external/ios/libs/libchipmunk.a; sourceTree = "<group>"; };
 		A614E2DE1C8E72360065A737 /* CCLabelTTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLabelTTF.h; sourceTree = "<group>"; };
 		A63CEFF91CD9CF3500A6971D /* CCUIEditBoxMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCUIEditBoxMac.h; path = Mac/CCUIEditBoxMac.h; sourceTree = "<group>"; };
@@ -2447,6 +2451,8 @@
 		1551A334158F2AB200E66CFE = {
 			isa = PBXGroup;
 			children = (
+				A43D898A211C237600DA5BB2 /* jsbTest.cpp */,
+				A43D8989211C237600DA5BB2 /* jsbTest.h */,
 				50272539190BF1B900AAF4ED /* cocos2d.cpp */,
 				50272538190BF1B900AAF4ED /* cocos2d.h */,
 				46A169A11807B037005B8026 /* 2d */,
@@ -4743,6 +4749,7 @@
 				BA679B371CEC373000F875FA /* CCEventAssetsManagerEx.h in Headers */,
 				FA6F1B881D80F858007DD223 /* ColorTransform.h in Headers */,
 				4DED48091DFFA4AF0070C5C4 /* b2GrowableStack.h in Headers */,
+				A43D898B211C237600DA5BB2 /* jsbTest.h in Headers */,
 				4DED487F1DFFA4AF0070C5C4 /* b2RopeJoint.h in Headers */,
 				1A570313180BCF190088DEC7 /* CCComponentContainer.h in Headers */,
 				15AE1BC419AADFFB00C27E9E /* ExtensionMacros.h in Headers */,
@@ -5530,6 +5537,7 @@
 				1A28FF8C1F20AFAB007A1D9D /* SRURLUtilities.m in Sources */,
 				1A570301180BCE890088DEC7 /* CCParallaxNode.cpp in Sources */,
 				1A57030D180BCF190088DEC7 /* CCComponent.cpp in Sources */,
+				A43D898C211C237600DA5BB2 /* jsbTest.cpp in Sources */,
 				1AFFCD771F7A59B200628F2C /* CCThreadPool.cpp in Sources */,
 				464AD6E6197EBB1400E502D8 /* pvr.cpp in Sources */,
 				1A28FF541F20AFAB007A1D9D /* SRIOConsumer.m in Sources */,
